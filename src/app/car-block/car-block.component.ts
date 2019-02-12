@@ -19,13 +19,8 @@ export class CarBlockComponent implements OnInit {
     this.carService.getCarData(this.car.id).subscribe((result: CarInfoI) => {
       if (result) {
         this.carInfo = result;
-        console.log(this.carInfo)
       }
     });
-  }
-
-  public ifDefined(value) {
-
   }
 
 }

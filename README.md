@@ -18,10 +18,6 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
@@ -30,3 +26,14 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 * Better design could have been achieved using RXJS merge to return nested data
 * Could not match font to design
+* Used Cypress for e2e test instead of Protractor. It works but test is not very useful.
+* There are no unit tests
+* Limited amount of interfaces types
+* More could be done on responsive features to make it more inline with design
+
+# Installation
+
+* run `npm i`
+* run `ng serve`
+* goto `http://localhost:4200`
+* to run e2e test use `ng e2e`
