@@ -1,0 +1,15 @@
+<div class="car-block">
+  <div class="overlay"></div>
+  <div class="image-holder">
+    <img [src]="'/assets/' + car.media[0].url" alt="car">
+  </div>
+  <div class="information-holder">
+    <div class="vehicle-name"><h2>{{ car.id + ' ' + car.modelYear }}</h2></div>
+    <div class="vehicle-price">From {{ carInfo?.price }}</div>
+    <div class="vehicle-description">{{ carInfo?.description }}</div>
+  </div>
+</div>
+
+<!--{{ car | json }}-->
+<!--<br>-->
+<!--{{ carInfo | json }}-->
