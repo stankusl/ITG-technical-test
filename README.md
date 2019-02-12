@@ -36,4 +36,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 * run `npm i`
 * run `ng serve`
 * goto `http://localhost:4200`
-* to run e2e test use `ng e2e`
+* to run e2e test use `./node_modules/cypress/bin/cypress open`

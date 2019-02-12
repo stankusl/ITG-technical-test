@@ -7,7 +7,7 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "cypress open -p 9999"
+    "e2e": "./node_modules/cypress/bin/cypress open"
   },
   "private": true,
   "dependencies": {
